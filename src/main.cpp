@@ -82,6 +82,9 @@ int main(){
     {
         // Update
         platform_update_window();
+        SM_ERROR("ERROR");
+        SM_WARN("WARNING");
+        SM_PRINT("Print");
     }
     return 0;
 }
